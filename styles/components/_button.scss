@@ -1,0 +1,116 @@
+@use '../variables/variables' as *;
+@use 'sass:color';
+
+.btn {
+  display: inline-block;
+  font-weight: $font-weight-regular;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: $spacing-sm $spacing-lg;
+  font-size: $font-size-base;
+  line-height: 1.5;
+  border-radius: $border-radius-md;
+  transition: color $transition-duration $transition-timing,
+              background-color $transition-duration $transition-timing,
+              border-color $transition-duration $transition-timing,
+              box-shadow $transition-duration $transition-timing;
+  cursor: pointer;
+  
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    outline: 0;
+  }
+  
+  &:disabled,
+  &.disabled {
+    opacity: 0.65;
+    pointer-events: none;
+  }
+}
+
+// Button variants
+.btn-primary {
+  color: $light-text-color;
+  background-color: $primary-color;
+  border-color: $primary-color;
+  
+  &:hover {
+    background-color: color.scale($primary-color, $lightness: -10%);
+    border-color: color.scale($primary-color, $lightness: -12%);
+  }
+  
+  &:focus {
+    box-shadow: 0 0 0 3px rgba($primary-color, 0.5);
+  }
+}
+
+.btn-secondary {
+  color: $light-text-color;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+  
+  &:hover {
+    background-color: color.scale($secondary-color, $lightness: -10%);
+    border-color: color.scale($secondary-color, $lightness: -12%);
+  }
+  
+  &:focus {
+    box-shadow: 0 0 0 3px rgba($secondary-color, 0.5);
+  }
+}
+
+.btn-accent {
+  color: $light-text-color;
+  background-color: $accent-color;
+  border-color: $accent-color;
+  
+  &:hover {
+    background-color: color.scale($accent-color, $lightness: -10%);
+    border-color: color.scale($accent-color, $lightness: -12%);
+  }
+  
+  &:focus {
+    box-shadow: 0 0 0 3px rgba($accent-color, 0.5);
+  }
+}
+
+.btn-outline-primary {
+  color: $primary-color;
+  background-color: transparent;
+  border-color: $primary-color;
+  
+  &:hover {
+    color: $light-text-color;
+    background-color: $primary-color;
+    border-color: $primary-color;
+  }
+}
+
+.btn-outline-secondary {
+  color: $secondary-color;
+  background-color: transparent;
+  border-color: $secondary-color;
+  
+  &:hover {
+    color: $light-text-color;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+  }
+}
+
+// Button sizes
+.btn-sm {
+  padding: $spacing-xs $spacing-md;
+  font-size: $font-size-small;
+  border-radius: $border-radius-sm;
+}
+
+.btn-lg {
+  padding: $spacing-md $spacing-xl;
+  font-size: $font-size-large;
+  border-radius: $border-radius-lg;
+} 

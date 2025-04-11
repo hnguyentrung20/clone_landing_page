@@ -1,0 +1,35 @@
+// Import variables first using modern @use syntax
+@use 'variables/variables' as *;
+
+// Import base styles
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/utilities';
+
+// Import components
+@use 'components/button';
+
+// Import page-specific styles
+@use 'pages/home';
+
+/* 
+  Add any global styles below that don't fit in the other files
+*/
+
+body {
+  min-height: 100vh;
+  background-color: $background-color;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacing-md;
+  
+  @media (max-width: $breakpoint-md) {
+    padding: 0 $spacing-sm;
+  }
+}
+
+// Add your custom global styles below 
