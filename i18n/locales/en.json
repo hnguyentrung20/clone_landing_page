@@ -1,0 +1,44 @@
+{
+  "welcome": "Welcome",
+  "home": "Home",
+  "header": {
+    "about": "about us",
+    "contact": "contact us",
+    "games": "games",
+    "partners": "partners"
+  },
+  "login": "Login",
+  "register": "Register",
+  "search": "Search",
+  "language": "Language",
+  "menu": "Menu",
+  "more": "More",
+  "readMore": "Read more",
+  "settings": "Settings",
+  "profile": "Profile",
+  "logout": "Logout",
+  "landing": {
+    "title": "We're Getting Ready",
+    "countdown": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "second": "Second"
+    },
+    "description": "We will back to something amazing. Getting the latest updates about our games. Please sign up to our newsletter.",
+    "emailPlaceholder": "Enter your email",
+    "submit": "Submit"
+  },
+  "error": {
+    "notFound": "Page not found",
+    "serverError": "Server error"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back"
+  }
+}

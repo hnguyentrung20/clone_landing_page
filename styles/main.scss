@@ -5,6 +5,7 @@
 @use 'base/reset';
 @use 'base/typography';
 @use 'base/utilities';
+@use 'base/element';
 
 // Import components
 @use 'components/button';
@@ -26,10 +27,10 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 $spacing-md;
-  
+
   @media (max-width: $breakpoint-md) {
     padding: 0 $spacing-sm;
   }
 }
 
-// Add your custom global styles below 
+// Add your custom global styles below

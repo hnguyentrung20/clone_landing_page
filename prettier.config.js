@@ -1,0 +1,24 @@
+module.exports = {
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+  printWidth: 80,
+  trailingComma: 'es5',
+  bracketSpacing: true,
+  vueIndentScriptAndStyle: true,
+  endOfLine: 'lf',
+  arrowParens: 'always',
+  htmlWhitespaceSensitivity: 'strict',
+  singleAttributePerLine: false,
+  bracketSameLine: false,
+  plugins: ['prettier-plugin-vue'],
+  overrides: [
+    {
+      files: '*.vue',
+      options: {
+        parser: 'vue',
+        vueIndentScriptAndStyle: true,
+      },
+    },
+  ],
+};

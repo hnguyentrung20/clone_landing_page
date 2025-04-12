@@ -8,7 +8,12 @@ body {
   color: $text-color;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-family-heading;
   margin-bottom: $spacing-md;
   font-weight: $font-weight-bold;
@@ -17,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.5rem;
+  font-family: $font-playfair;
 }
 
 h2 {
@@ -46,7 +52,7 @@ p {
 a {
   color: $primary-color;
   transition: color $transition-duration $transition-timing;
-  
+
   &:hover {
     color: color.scale($primary-color, $lightness: -10%);
   }
@@ -94,4 +100,8 @@ a {
 
 .text-accent {
   color: $accent-color;
-} 
+}
+
+.text-playfair {
+  font-family: $font-playfair;
+}

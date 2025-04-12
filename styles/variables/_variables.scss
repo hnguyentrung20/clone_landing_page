@@ -2,14 +2,15 @@
 $primary-color: #3498db;
 $secondary-color: #2ecc71;
 $accent-color: #e74c3c;
-$text-color: #333333;
-$light-text-color: #ffffff;
-$background-color: #f8f9fa;
+$text-color: #000000;
+$white-text-color: #ffffff;
+$background-color: #ffffff;
 $border-color: #dddddd;
 
 // Typography
 $font-family-base: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 $font-family-heading: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+$font-playfair: 'Playfair Display', serif;
 $font-size-base: 16px;
 $font-size-small: 14px;
 $font-size-large: 18px;
@@ -45,4 +46,4 @@ $transition-timing: ease-in-out;
 // Shadows
 $box-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
 $box-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
-$box-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1); 
+$box-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
