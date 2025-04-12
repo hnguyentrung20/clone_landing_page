@@ -1,11 +1,11 @@
 <template>
   <div class="home-container">
-    <h1>Home Page</h1>
+    <Section1 />
   </div>
 </template>
 
 <script setup>
-  // You can add any script logic here if needed
+  import Section1 from '~/components/homepage/section-1.vue';
 </script>
 
 <style lang="scss">

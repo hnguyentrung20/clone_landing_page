@@ -12,13 +12,4 @@ module.exports = {
   singleAttributePerLine: false,
   bracketSameLine: false,
   plugins: ['prettier-plugin-vue'],
-  overrides: [
-    {
-      files: '*.vue',
-      options: {
-        parser: 'vue',
-        vueIndentScriptAndStyle: true,
-      },
-    },
-  ],
 };

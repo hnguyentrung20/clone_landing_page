@@ -63,14 +63,18 @@
 </script>
 
 <style lang="scss" scoped>
-  .header {
+.header {
   height: 112px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 16px;
-  background-color: black;
   transition: padding $transition-duration $transition-timing;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 .logo {
