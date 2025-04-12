@@ -50,11 +50,13 @@ p {
 }
 
 a {
-  color: $primary-color;
+  color: $text-white-color;
   transition: color $transition-duration $transition-timing;
+  font-weight: $font-weight-bold;
 
   &:hover {
-    color: color.scale($primary-color, $lightness: -10%);
+    text-decoration: underline;
+    text-underline-offset: 4px;
   }
 }
 

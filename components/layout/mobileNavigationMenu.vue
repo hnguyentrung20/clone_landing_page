@@ -1,9 +1,9 @@
 <template>
   <div class="mobile-menu" :class="{ open: isOpen }">
     <div class="mobile-menu-header">
-      <LanguageDropDown />
+      <LanguageSelector />
       <button class="close-button" @click="close">
-        <img src="@/assets/icons/close.svg" alt="Close" >
+        <Close />
       </button>
     </div>
 
@@ -26,7 +26,8 @@
 
 <script setup>
   import { useI18n } from 'vue-i18n';
-  import LanguageDropDown from './languageDropDown.vue';
+  import LanguageSelector from './languageSelector.vue';
+  import Close from '../icons/Close.vue';
 
   defineProps({
     isOpen: {
@@ -82,10 +83,14 @@
   border: none;
   cursor: pointer;
   padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  img {
+  svg {
     width: 24px;
     height: 24px;
+    color: #000;
   }
 }
 
