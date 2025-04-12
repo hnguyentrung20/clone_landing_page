@@ -6,6 +6,7 @@
 @use 'base/typography';
 @use 'base/utilities';
 @use 'base/element';
+@use 'base/functions';
 
 // Import components
 @use 'components/button';
@@ -13,7 +14,7 @@
 // Import page-specific styles
 @use 'pages/home';
 
-/* 
+/*
   Add any global styles below that don't fit in the other files
 */
 

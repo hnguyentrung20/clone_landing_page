@@ -21,8 +21,8 @@ export default defineNuxtConfig({
     families: [
       { name: 'Roboto', weights: [300, 400, 700] },
       { name: 'Montserrat', weights: [400, 700] },
-      { name: 'Playfair Display', weights: [400, 700] }
-    ]
+      { name: 'Playfair Display', weights: [400, 700] },
+    ],
   },
 
   i18n: {
