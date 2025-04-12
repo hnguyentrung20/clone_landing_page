@@ -9,16 +9,16 @@
     <nav class="navigation-menu">
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#">{{ t('header.about') }}</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#">{{ t('header.games') }}</a>
         </li>
         <li>
-          <a href="#">Games</a>
+          <a href="#">{{ t('header.partners') }}</a>
         </li>
         <li>
-          <a href="#">Partners</a>
+          <a href="#">{{ t('header.contact') }}</a>
         </li>
         <li>
           <LanguageSelector />
@@ -40,9 +40,12 @@
   import Logo from '~/components/icons/Logo.vue';
   import HamburgerSelect from '~/components/icons/HamburgerSelect.vue';
   import { useMobile } from '~/composables/useMediaQuery';
+  import { useI18n } from 'vue-i18n';
 
   const isMenuOpen = ref(false);
   const isMobile = useMobile();
+
+  const { t } = useI18n();
 
   const toggleMenu = () => {
     isMenuOpen.value = !isMenuOpen.value;
@@ -98,6 +101,14 @@
     display: flex;
     align-items: center;
     gap: 54px;
+    >li {
+      >a {
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+    }
   }
 }
 

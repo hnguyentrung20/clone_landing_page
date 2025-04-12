@@ -153,7 +153,7 @@
       max-width: calc(1200px + 16px);
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 4.25rem;
       padding: 40px 16px 62px;
       width: 100%;
       position: relative;
@@ -186,7 +186,7 @@
     .social-links {
       display: flex;
       width: fit-content;
-      gap: 1rem;
+      gap: 1.5rem;
       margin: 1.5rem 0;
     }
 
