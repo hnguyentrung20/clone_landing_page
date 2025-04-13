@@ -11,7 +11,7 @@
       <div
         class="language-option"
         :class="{ selected: currentLocale === 'en' }"
-        @click.stop="setLocale('en')"
+        @click.stop="onSetLocale('en')"
       >
         <UsFlag class="flag-icon" />
         <span>English</span>
@@ -19,7 +19,7 @@
       <div
         class="language-option"
         :class="{ selected: currentLocale === 'vi' }"
-        @click.stop="setLocale('vi')"
+        @click.stop="onSetLocale('vi')"
       >
         <VnFlag class="flag-icon" />
         <span>Tiếng Việt</span>
@@ -42,6 +42,11 @@
 
   const toggleLanguageDropdown = () => {
     isLanguageDropdownOpen.value = !isLanguageDropdownOpen.value;
+  };
+
+  const onSetLocale = (locale) => {
+    setLocale(locale);
+    isLanguageDropdownOpen.value = false;
   };
 </script>
 

@@ -2,11 +2,14 @@
   <section class="home-page__section-1">
     <div class="home-page__section-1__container">
       <div class="content-wrapper">
-        <h1 class="title">We're Getting Ready</h1>
+        <h1 class="title">{{ t('landing.title') }}</h1>
         <CountdownTimer />
-        <p class="description">
-          {{ t('landing.description') }}
-        </p>
+        <div class="description-wrapper">
+          <div class="blur-zone" />
+          <p class="description">
+            {{ t('landing.description') }}
+          </p>
+        </div>
         <div class="email-signup">
           <input type="email" :placeholder="t('emailPlaceholder')" >
           <button>
@@ -15,7 +18,7 @@
         </div>
       </div>
     </div>
-    <div class="blur-zone"/>
+
     <div class="home-page__section-1__decoration">
       <img src="/assets/imgs/ong-tien.png" alt="bg-pattern" >
     </div>
@@ -38,9 +41,9 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-bottom: 40px;
   flex-direction: column;
-  @media (min-width: 768px) {
+  margin-bottom: 40px;
+  @media (min-width: $breakpoint-md) {
     margin-bottom: 128px;
   }
   &::before {
@@ -78,7 +81,7 @@
     margin-top: -10vh;
     left: 50%;
     transform: translateX(-40%);
-    @media (min-width: 768px) {
+    @media (min-width: $breakpoint-md) {
       left: 0%;
       transform: translateX(0%);
       position: absolute;
@@ -97,18 +100,21 @@
   align-items: center;
   text-align: center;
   position: relative;
-  z-index: 1000;
+  z-index: 100;
 
 }
-
+.description-wrapper {
+  position: relative;
+  z-index: 0;
+}
 .blur-zone {
     position: absolute;
-    top: 500px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     right: 0;
     bottom: 0;
-    width: 700px;
+    width: 500px;
     height: 200px;
     background: radial-gradient(
       circle,
@@ -121,10 +127,6 @@
     backdrop-filter: blur(15px);
     z-index: 10;
     border-radius: 1000px;
-    @media (min-width: 768px) {
-      max-width: 40%;
-      top: 60%;
-    }
   }
 
 .title {
@@ -137,6 +139,8 @@
   font-size: 1.2rem;
   max-width: 600px;
   margin: 20px auto 30px;
+  z-index: 20;
+  position: relative;
 }
 
 .email-signup {
@@ -147,7 +151,7 @@
   background-color: white;
   border-radius: 5px;
   overflow: hidden;
-
+  z-index: 20;
   input {
     flex: 1;
     padding: 15px 20px;

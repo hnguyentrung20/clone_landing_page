@@ -35,7 +35,18 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-family: $font-playfair;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin-bottom: 16px;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: 80px;
+    line-height: 120px;
+  }
 }
 
 h3 {

@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="background-image"/>
+    <div class="background-image" />
     <div class="footer-content">
       <div class="logo-social-section">
         <div class="logo">

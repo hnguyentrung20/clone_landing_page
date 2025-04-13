@@ -63,7 +63,7 @@
 </script>
 
 <style lang="scss" scoped>
-.header {
+  .header {
   height: 112px;
   display: flex;
   align-items: center;

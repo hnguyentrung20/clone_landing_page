@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { useI18n } from 'vue-i18n';
+  import { useI18n } from 'vue-i18n';
   export default {
     data() {
       return {
@@ -74,7 +74,7 @@ import { useI18n } from 'vue-i18n';
 </script>
 
 <style lang="scss" scoped>
-.countdown-container {
+  .countdown-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,6 +88,7 @@ import { useI18n } from 'vue-i18n';
   max-width: 756px;
   width: 100%;
   justify-content: space-between;
+  z-index: 20;
   &.is-loading {
     opacity: 0;
   }
