@@ -133,12 +133,14 @@
 
 <style lang="scss">
   .section-3-player-card {
-  padding: 2rem;
+  margin-inline: 2rem;
 
   margin-bottom: 40px;
   @media (min-width: $breakpoint-md) {
     margin-bottom: 128px;
+    margin-inline: 5rem;
   }
+
 
   &__title {
     text-align: center;

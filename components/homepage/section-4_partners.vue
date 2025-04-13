@@ -196,20 +196,19 @@ onBeforeUnmount(() => {
 
   &__slide {
     flex: none;
-    width: 20%; // Mặc định hiển thị 5 logo
+    width: 260px;
     padding: 0 $spacing-md;
     box-sizing: border-box;
 
     @media (max-width: $breakpoint-lg) {
-      width: 33.333%; // Hiển thị 3 logo
+      width: 33.333%;
     }
 
     @media (max-width: $breakpoint-md) {
-      width: 50%; // Hiển thị 2 logo
+      width: 50%;
     }
-
     @media (max-width: $breakpoint-sm) {
-      width: 100%; // Hiển thị 1 logo
+      width: 100%;
     }
   }
 

@@ -221,7 +221,7 @@
       display: flex;
       align-items: flex-start;
       justify-content: center;
-
+      fill: white;
       svg {
         width: 24px;
         height: 24px;
@@ -243,7 +243,7 @@
     .subscribe-form {
       display: flex;
       margin-top: 1rem;
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.7);
       border-radius: 4px;
       overflow: hidden;
     }
@@ -268,7 +268,6 @@
       width: 40px;
       background-color: transparent;
       border: none;
-      border-left: 1px solid rgba(255, 255, 255, 0.2);
       color: white;
       cursor: pointer;
       display: flex;
