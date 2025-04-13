@@ -7,6 +7,9 @@
     "games": "games",
     "partners": "partners"
   },
+  "common": {
+    "loading": "Loading..."
+  },
   "landing": {
     "title": "We're Getting Ready",
     "countdown": {

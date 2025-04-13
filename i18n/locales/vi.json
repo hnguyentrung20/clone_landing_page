@@ -7,6 +7,9 @@
     "games": "trò chơi",
     "partners": "đối tác"
   },
+  "common": {
+    "loading": "Đang tải..."
+  },
   "landing": {
     "title": "Trò chơi sắp ra mắt",
     "countdown": {
