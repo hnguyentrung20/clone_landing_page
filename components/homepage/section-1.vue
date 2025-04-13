@@ -5,33 +5,29 @@
         <h1 class="title">We're Getting Ready</h1>
         <CountdownTimer />
         <p class="description">
-          We will back to something amazing. Getting the latest updates about
-          our games. Please sign up to our newsletter.
+          {{ t('landing.description') }}
         </p>
         <div class="email-signup">
-          <input type="email" placeholder="Enter your email" />
+          <input type="email" :placeholder="t('emailPlaceholder')" >
           <button>
             <ChevronRight />
           </button>
         </div>
       </div>
     </div>
-    <div class="blur-zone"></div>
+    <div class="blur-zone"/>
     <div class="home-page__section-1__decoration">
-      <img src="/assets/imgs/ong-tien.png" alt="bg-pattern" />
+      <img src="/assets/imgs/ong-tien.png" alt="bg-pattern" >
     </div>
   </section>
 </template>
 
-<script>
+<script setup>
   import CountdownTimer from '../ui/CountdownTimer.vue';
   import ChevronRight from '../icons/ChevronRight.vue';
-  export default {
-    components: {
-      CountdownTimer,
-      ChevronRight,
-    },
-  };
+  import { useI18n } from 'vue-i18n';
+
+  const { t } = useI18n();
 </script>
 
 <style lang="scss" scoped>
@@ -112,7 +108,7 @@
     transform: translate(-50%, -50%);
     right: 0;
     bottom: 0;
-    width: 100%;
+    width: 700px;
     height: 200px;
     background: radial-gradient(
       circle,

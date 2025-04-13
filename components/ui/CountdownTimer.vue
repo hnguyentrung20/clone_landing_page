@@ -2,27 +2,28 @@
   <div class="countdown-container" :class="{ 'is-loading': isLoading }">
     <div class="countdown-item">
       <div class="countdown-value">{{ days }}</div>
-      <div class="countdown-label">Days</div>
+      <div class="countdown-label">{{ t('landing.countdown.days') }}</div>
     </div>
     <div class="countdown-separator">:</div>
     <div class="countdown-item">
       <div class="countdown-value">{{ hours }}</div>
-      <div class="countdown-label">Hours</div>
+      <div class="countdown-label">{{ t('landing.countdown.hours') }}</div>
     </div>
     <div class="countdown-separator">:</div>
     <div class="countdown-item">
       <div class="countdown-value">{{ minutes }}</div>
-      <div class="countdown-label">Minutes</div>
+      <div class="countdown-label">{{ t('landing.countdown.minutes') }}</div>
     </div>
     <div class="countdown-separator">:</div>
     <div class="countdown-item">
       <div class="countdown-value">{{ seconds }}</div>
-      <div class="countdown-label">Second</div>
+      <div class="countdown-label">{{ t('landing.countdown.second') }}</div>
     </div>
   </div>
 </template>
 
 <script>
+import { useI18n } from 'vue-i18n';
   export default {
     data() {
       return {
@@ -63,6 +64,10 @@
           this.seconds = 0;
         }
         this.isLoading = false;
+      },
+      t(key) {
+        const { t } = useI18n();
+        return t(key);
       },
     },
   };

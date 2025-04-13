@@ -7,16 +7,6 @@
     "games": "trò chơi",
     "partners": "đối tác"
   },
-  "login": "đăng nhập",
-  "register": "đăng ký",
-  "search": "tìm kiếm",
-  "language": "ngôn ngữ",
-  "menu": "menu",
-  "more": "xem thêm",
-  "readmore": "đọc tiếp",
-  "settings": "cài đặt",
-  "profile": "hồ sơ",
-  "logout": "đăng xuất",
   "landing": {
     "title": "chúng tôi đang chuẩn bị",
     "countdown": {
@@ -26,19 +16,7 @@
       "second": "giây"
     },
     "description": "chúng tôi sẽ trở lại với điều tuyệt vời. nhận các cập nhật mới nhất về trò chơi của chúng tôi. vui lòng đăng ký nhận bản tin.",
-    "emailplaceholder": "nhập email của bạn",
     "submit": "gửi"
   },
-  "error": {
-    "notfound": "không tìm thấy trang",
-    "servererror": "lỗi máy chủ"
-  },
-  "buttons": {
-    "submit": "gửi",
-    "cancel": "hủy",
-    "save": "lưu",
-    "delete": "xóa",
-    "edit": "sửa",
-    "back": "quay lại"
-  }
+  "emailPlaceholder": "Địa chỉ email của bạn"
 }
