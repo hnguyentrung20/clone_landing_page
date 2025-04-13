@@ -34,6 +34,13 @@
         "title": "Đội Ngũ",
         "description": "Etech là một studio quốc tế, từng đoạt giải thưởng gồm các nhà thiết kế, nghệ sĩ, họa sĩ hoạt hình và nhà sản xuất chuyên tạo ra nội dung cho những tên tuổi lớn nhất trong lĩnh vực điện ảnh và trò chơi điện tử."
       }
+    },
+    "section3": {
+      "title": "Trò chơi",
+      "description" : "Là nhà tiên phong trong lĩnh vực trò chơi ứng dụng dành cho thiết bị di động, chúng tôi tự hào về tính độc đáo và cá tính, cung cấp cho người chơi toàn cầu những trò chơi hiện đại có cốt truyện tuyệt vời, hiệu ứng âm thanh giật gân và hoạt ảnh hoành tráng không ngừng gây ấn tượng."
+    },
+    "section4": {
+      "title" : "Đối tác"
     }
   },
   "emailPlaceholder": "Địa chỉ email của bạn"

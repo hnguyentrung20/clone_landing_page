@@ -2,12 +2,16 @@
   <div class="home-container">
     <Section1 />
     <Section2 />
+    <Section3 />
+    <Section4 />
   </div>
 </template>
 
 <script setup>
   import Section1 from '~/components/homepage/section-1_getting-ready.vue';
   import Section2 from '~/components/homepage/section-2_about.vue';
+  import Section3 from '~/components/homepage/section-3_player-card.vue';
+  import Section4 from '~/components/homepage/section-4_partners.vue';
 </script>
 
 <style lang="scss">

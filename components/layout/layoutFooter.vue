@@ -14,7 +14,7 @@
       </div>
 
       <div class="address-section">
-        <h2>Address</h2>
+        <h3>Address</h3>
         <div class="address">
           <div class="address-icon">
             <Location />
@@ -41,7 +41,7 @@
       </div>
 
       <div class="subscribe-section">
-        <h2>Subscribe</h2>
+        <h3>Subscribe</h3>
         <p
           >Subscribe to our newsletter and be the first to know about our
           updates</p
