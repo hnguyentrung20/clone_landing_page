@@ -10,8 +10,8 @@ And wow, đây là kỷ niệm suýt bị bán sang Scambodia, giờ vẫn để
 
 Về sau giữa năm 2025 thì phải, cái công ty ảo này bị bắt thật, cái mụ HR chắc cũng bóc lịch chưa về.
 
-Đây là cái repo cuối cùng mà tôi tự viết code, tự suy nghĩ tên biến,
-AI lúc này cũng nửa nạc nửa mỡ, hỗ trợ dò chính tả với cú pháp là chính, ít nhất là tôi nhớ như  vậy.
+Đây hình như là cái repo cuối cùng, ở github cá nhân mà tôi tự viết từng dòng code, tự suy nghĩ tên biến,
+AI lúc này cũng nửa nạc nửa mỡ, hỗ trợ dò chính tả với cú pháp là chính, ít nhất là tôi nhớ như vậy.
 Tái bút 2026
 
 🌐 **Yêu cầu:** [https://docs.google.com/document/d/17HVtjtW62rPCsigvEyC_5RiY0FzmRaqk/edit?tab=t.0/](https://docs.google.com/document/d/17HVtjtW62rPCsigvEyC_5RiY0FzmRaqk/edit?tab=t.0)
