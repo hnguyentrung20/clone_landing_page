@@ -1,7 +1,9 @@
 # E-Tech Game Website
 
 E-Tech là một trang web trưng bày các trò chơi, được phát triển với Nuxt, SCSS và được hỗ trợ bởi Cursor.
-Vì là thân thuộc với next và tailwind hơn nên khá mất thời gian làm quen
+Vì là thân thuộc với next và tailwind hơn nên khá mất thời gian làm quen.
+
+
 Và đây là bài test của một công ty chuyên clone đi giả danh trang web thực, chạy trên 1 domain gần giống mới domain target và ăn cắp dữ liệu.
 Đấy là những gì tôi nghĩ khi nhận bài test ngớ ngẳn này, vì phỏng  vấn hoàn toàn không nhắc nhiều đến kỹ thuật chuyên môn, mà mức offer cao vl với cái địa chỉ văn phòng mờ ám vl.
 And wow, đây là kỷ niệm suýt bị bán sang Scambodia, giờ vẫn để public cho vui.
