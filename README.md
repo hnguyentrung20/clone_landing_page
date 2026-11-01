@@ -2,6 +2,16 @@
 
 E-Tech là một trang web trưng bày các trò chơi, được phát triển với Nuxt, SCSS và được hỗ trợ bởi Cursor.
 Vì là thân thuộc với next và tailwind hơn nên khá mất thời gian làm quen
+Và đây là bài test của một công ty chuyên clone đi giả danh trang web thực, chạy trên 1 domain gần giống mới domain target và ăn cắp dữ liệu.
+Đấy là những gì tôi nghĩ khi nhận bài test ngớ ngẳn này, vì phỏng  vấn hoàn toàn không nhắc nhiều đến kỹ thuật chuyên môn, mà mức offer cao vl với cái địa chỉ văn phòng mờ ám vl.
+And wow, đây là kỷ niệm suýt bị bán sang Scambodia, giờ vẫn để public cho vui.
+
+Về sau giữa năm 2025 thì phải, cái công ty ảo này bị bắt thật, cái mụ HR chắc cũng bóc lịch chưa về.
+
+Đây là cái repo cuối cùng mà tôi tự viết code, tự suy nghĩ tên biến,
+AI lúc này cũng nửa nạc nửa mỡ, hỗ trợ dò chính tả với cú pháp là chính, ít nhất là tôi nhớ như  vậy.
+Tái bút 2026
+
 🌐 **Yêu cầu:** [https://docs.google.com/document/d/17HVtjtW62rPCsigvEyC_5RiY0FzmRaqk/edit?tab=t.0/](https://docs.google.com/document/d/17HVtjtW62rPCsigvEyC_5RiY0FzmRaqk/edit?tab=t.0)
 🌐 **Đã deploy tại:** [https://heartfelt-dragon-e5c076.netlify.app/](https://heartfelt-dragon-e5c076.netlify.app/)
 
